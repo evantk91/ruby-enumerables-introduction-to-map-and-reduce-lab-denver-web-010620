@@ -58,7 +58,7 @@ def reduce_to_total(source_array) #starting_point)
   total
 end
 
-def reduce_to_total(source_array, starting_point)
+def reduce_to_total1(source_array, starting_point)
   total = starting_point
   i = 0
   while i < source_array.length do
